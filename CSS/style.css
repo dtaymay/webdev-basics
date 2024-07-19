@@ -6,7 +6,7 @@ p {
 
 div {
     float:left;
-    position: absolute;
+    /* position: absolute; */
     top: 0px;
     left: 0px;
     width: 100px;
@@ -28,4 +28,18 @@ div {
     height: 100px;
     background: blue;
     border: 25px solid black;
+}
+
+.box2 > p {
+        background-color: blue;
+        color: white;
+}
+
+.box3 > p {
+    background-color: orange;
+    color: white;
+}
+
+.box2.box3 {
+    color: red
 }
